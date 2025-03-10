@@ -2,40 +2,55 @@
 @import './variables';
 
 body {
+    background-color: #fafafa;
+    font-family: $font-family;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.07em;
+    color: #454747;
+
+    b {
+        font-weight: 800;
+    }
 }
 
 .d-f {
-	display: flex;
+    display: flex;
 }
 
 .d-g {
-	display: grid;
+    display: grid;
 }
 
 .jc-sb {
-	justify-content: space-between;
+    justify-content: space-between;
 }
 
 .jc-c {
-	justify-content: center;
+    justify-content: center;
 }
 
 .ai-c {
-	align-items: center;
+    align-items: center;
 }
 
 .fd-c {
-	flex-direction: column;
+    flex-direction: column;
 }
 
 .fw-w {
-	flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .ta-c {
-	text-align: center;
+    text-align: center;
 }
 
 .ta-e {
-	text-align: end;
+    text-align: end;
+}
+
+.icon-link {
+    display: flex;
 }
